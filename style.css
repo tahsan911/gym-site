@@ -96,22 +96,47 @@ body{
 }
 .about{
     display: flex;
-    height: 100%;
+    height: 100vh;
 }
 .section-3 > h1{
     color: white;
     text-align: center;
-    font-size: 48px;
+    font-size: 52px;
+    margin-bottom: 5px;
 }
 .first-about{
     display: flex;
     border-top: 1px solid red;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+    width: 50%;
 }
 .first-about > img {
-    width: 50%;
-    height: 80%;
+    width: 80%;
+    height: 90%;
     margin: 0 15px;
+    transform: skewY(-15deg);
 }
 .second-about{
-
+    border-top: 1px solid grey;
+    color: white;
+    width: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+.second-about > h1{
+    font-size: 44px;
+    color: white;
+}
+#btn{
+    padding: 15px 25px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
