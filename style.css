@@ -91,7 +91,7 @@ body{
 }
 
 .section-3{
-    height: 100vh;
+    height: 110vh;
     background-color: rgb(16,15,15);
 }
 .about{
@@ -139,4 +139,33 @@ body{
     border-radius: 5px;
     border: none;
     cursor: pointer;
+}
+
+.section-4{
+    text-align: center;
+    height: 70vh;
+}
+.banner{
+    background-image: url("images/shape/Group_33094_1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    height: 100%;
+}
+.chat-btn{
+    padding: 7px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+}
+.align{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 70vh;
+}
+.banner-header{
+    margin-right: 28px;
+    color: #fff;
+    font-size: 32px;
 }
